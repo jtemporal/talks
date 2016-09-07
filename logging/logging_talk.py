@@ -1,5 +1,3 @@
-
-
 import sys
 
 
@@ -88,5 +86,5 @@ print('Hi {}!'.format(name))
 #    sys.exit(1)
 #
 #logging.info('Read name!')
-#logging.info('Hi {}!'.format(name))
+#logging.info('Hi %s!', name)
 
