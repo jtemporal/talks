@@ -1,0 +1,22 @@
+session_name: talks
+windows:
+ - window_name: code
+   focus: true
+   layout: tiled
+   panes:
+     - shell_command:
+       - workon talks
+       - vim
+       focus: true
+     - shell_command:
+       - workon talks
+       - clear
+       - jupyter notebook
+     - shell_command:
+       - workon talks
+       - clear
+       - g status
+     - shell_command:
+       - workon talks
+       - clear
+       - tree
