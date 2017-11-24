@@ -29,8 +29,8 @@ from serenata_toolbox.datasets import fetch
 
 # In[ ]:
 
-fetch('2016-09-03-companies.xz', '../data')
-fetch('2016-11-19-reimbursements.xz', '../data')
+fetch('2016-09-03-companies.xz', 'data/')
+fetch('2016-11-19-reimbursements.xz', 'data/')
 
 
 #  
@@ -51,8 +51,8 @@ fetch('2016-11-19-reimbursements.xz', '../data')
 
 # In[2]:
 
-companies = pd.read_csv('../data/2016-09-03-companies.xz', low_memory=False)
-reimbursements = pd.read_csv('../data/2016-11-19-reimbursements.xz',
+companies = pd.read_csv('data/2016-09-03-companies.xz', low_memory=False)
+reimbursements = pd.read_csv('data/2016-11-19-reimbursements.xz',
                       dtype={'applicant_id': np.str,
                              'cnpj_cpf': np.str,
                              'congressperson_id': np.str,
