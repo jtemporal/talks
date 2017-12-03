@@ -1,0 +1,8 @@
+version: "2"
+services:
+  jupy:
+    build: .
+    volumes:
+      - .:/src
+    ports:
+      - 8888:8888
