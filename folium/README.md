@@ -19,7 +19,7 @@ $ docker-compose up
 
 ## Dados
 
-No notebook vou usar os dados de geolocalização de empresas gerado pelo Serenata com umas poucas diferenças do arquivo original. Você pode baixar o csv de exemplo [aqui]().
+No notebook vou usar os dados de geolocalização de empresas no Brasil. O arquivo original,  gerado pelo Serenata, pode ser baixado pelo `serenata-toolbox` e instruções sobre como fazer isso podem ser encontradas [aqui](https://github.com/datasciencebr/serenata-toolbox/blob/master/README.rst#usage).
 
 ## Arquivos
 
