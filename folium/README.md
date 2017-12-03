@@ -1,6 +1,6 @@
 # Usando a biblioteca Folium
 
-Um projeto simples sobre algumas analises de utilizando a biblioteca [Folium]().
+Um projeto simples sobre algumas análises de utilizando a biblioteca [Folium]().
 
 ## Instalação
 
@@ -23,7 +23,7 @@ No notebook vou usar os dados de geolocalização de empresas no Brasil. O arqui
 
 ## Arquivos
 
-- `.ipynb`: Apenas um registro de como o dataset foi feito
+- `prepacao-de-dados.ipynb`: Apenas um registro de como o dataset foi feito
 - `.ipynb`: Análise usando a biblioteca folium
 - `mapas/`: Diretório com os mapas resultantes da análise
 - `empresas.xz`: Arquivo `.csv` comprimido com dados de empresas
